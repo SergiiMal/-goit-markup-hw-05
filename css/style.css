@@ -262,6 +262,9 @@ address {
 
 .modal{
   position: absolute;
+  display: flex;
+  justify-content: end;
+  padding: 8px;
   top: 50%;
   left: 50%; 
   width: 528px;
@@ -274,6 +277,19 @@ address {
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;  
+}
+
+.btn-close{
+  width: 30px;
+  height: 30px;
+   
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.icon-close{ 
+  fill: #000000;
 }
 
 /* feature */
@@ -346,7 +362,7 @@ padding-bottom: 94px;
 padding-top: 94px;
 }
 
-.section .list {
+.section .list {  
   display: flex;
   list-style: none;
  
@@ -357,6 +373,10 @@ padding-top: 94px;
   margin-right: 30px;
 }
 
+.section-item{
+  position: relative;      
+}
+
 .section-title {  
   margin-bottom: 50px;
 
@@ -365,6 +385,27 @@ padding-top: 94px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.section-text{
+  position: absolute;  
+
+  bottom: 0;
+  right: 0;
+  width: 370px;
+  height: 70px;
+  
+  padding-top: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
 }
 
 /* section-command */

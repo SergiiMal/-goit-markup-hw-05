@@ -66,12 +66,12 @@
           </h1>
           <button class="btn" type="button" data-modal-open>Замовити послугу</button>
           <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur quam rerum voluptate excepturi ullam libero id
-                 optio cupiditate velit debitis cumque consequuntur tempore 
-                 perspiciatis sequi, nobis, accusantium soluta dolorum! Similique!</p>
-              <button data-modal-close>Закрити</button>
+            <div class="modal">              
+              <button class="btn-close" data-modal-close>
+                <svg class="icon-close" width="18" height="18">
+                  <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -138,21 +138,23 @@
           <ul class="list">
             <li class="section-item">
               <a class="section-link" href="#">
-                <img src="./img/close-up.jpg" alt="close-up" width="370"
-              /></a>
+                <img class="no-gap" src="./img/close-up.jpg" alt="close-up" width="370"              />
+                 <p class="section-text">Десктопні додатки</p>
+            </a>
             </li>
             <li class="section-item">
               <a class="section-link" href="#">
                 <img
                   src="./img/web-ui-designers.jpg"
                   alt="web-ui-designers"
-                  width="370"
-                />
+                  width="370"/>
+                <p class="section-text">Мобільні додатки</p>
               </a>
             </li>
             <li class="section-item">
               <a class="section-link" href="#">
                 <img src="./img/artist-web.jpg" alt="artist-web" width="370" />
+                <p class="section-text">Дизайнерські рішення</p>
               </a>
             </li>
           </ul>
