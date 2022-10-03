@@ -64,7 +64,16 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button class="btn" type="button">Замовити послугу</button>
+          <button class="btn" type="button" data-modal-open>Замовити послугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consectetur quam rerum voluptate excepturi ullam libero id
+                 optio cupiditate velit debitis cumque consequuntur tempore 
+                 perspiciatis sequi, nobis, accusantium soluta dolorum! Similique!</p>
+              <button data-modal-close>Закрити</button>
+            </div>
+          </div>
         </div>
       </section>
       <!--Особливості-->
@@ -410,5 +419,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
