@@ -121,6 +121,15 @@ address {
   color: var(--accent-color);
 }
 
+.site-nav .link.current::after{
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-size: cover;
+  background: #2196F3;
+  border-radius: 2px;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .top-address .link:hover,
@@ -364,17 +373,20 @@ padding-top: 94px;
 
 .section .list {  
   display: flex;
-  list-style: none;
- 
+  list-style: none; 
 }
-
 
 .section-item:not(:last-child) {
   margin-right: 30px;
 }
 
 .section-item{
-  position: relative;      
+       
+}
+.section-link{
+  position: relative;
+  display: block;
+  line-height: 0;
 }
 
 .section-title {  
