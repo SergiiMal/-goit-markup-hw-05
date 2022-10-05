@@ -281,7 +281,7 @@ address {
 
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250 var(--timing-function);
+  transition: opacity 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
